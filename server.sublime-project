@@ -1,0 +1,8 @@
+{
+	"folders": [ {
+		"path": "./",
+		"folder_exclude_patterns": [ "node_modules", "lib", "persist", "client", "src", "res", "libs", "fonts", "img", "svg" ],
+		"file_exclude_patterns": [ "build*", "*build.js", ".*", "*min.css", "*min.js", "*.sublime-project" ]
+	} ]
+}
+

@@ -1,0 +1,44 @@
+{
+	"name": "vue2",
+	"description": "A Vue.js project",
+	"author": "roblav96 <roblav96@gmx.com>",
+	"private": true,
+	"scripts": {
+		"dev": "webpack-dev-server --inline --hot",
+		"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+	},
+	"dependencies": {
+		"axios": "*",
+		"bluebird": "*",
+		"body-parser": "*",
+		"cli-color": "*",
+		"copy-paste": "*",
+		"cron": "*",
+		"debug-trace": "*",
+		"deepstream.io": "*",
+		"deepstream.io-client-js": "*",
+		"events": "*",
+		"eyes": "*",
+		"ioredis": "*",
+		"lockr": "*",
+		"lodash": "*",
+		"moment": "*",
+		"node-persist": "*",
+		"restify": "*",
+		"rethinkdbdash": "*",
+		"url": "*",
+		"vue": "^2.0.0-beta.5"
+	},
+	"devDependencies": {
+		"babel-core": "^6.0.0",
+		"babel-loader": "^6.0.0",
+		"babel-preset-es2015-webpack": "^6.0.0",
+		"cross-env": "^1.0.6",
+		"css-loader": "^0.23.1",
+		"file-loader": "^0.8.4",
+		"vue-loader": "^9.2.2",
+		"webpack": "^2.1.0-beta.20",
+		"webpack-dev-server": "^2.1.0-beta.0"
+	}
+}
+
